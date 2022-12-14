@@ -1,0 +1,488 @@
+/* Style Sheet for Hades Game */
+
+/* main basic css */
+
+body {
+    background: black;
+}
+
+h1 {
+    font: size 4rem;
+    margin: bottom 1rem;
+}
+
+h2 {
+    padding: bottom 2.5rem;
+    letter-spacing: 0.1rem;
+    color:#aeb185;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+h3 {
+    color: #d83435;
+    letter-spacing: -0.01rem;
+    font-size: 1.4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    color: #4d4d4d;
+    padding-bottom: 0.75rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.07rem;
+}
+
+/* Utility */
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.padding{
+    padding: 2.5rem 0;
+}
+
+.sectionTitle{
+    padding-bottom: 0.5rem;
+   
+}
+
+.tagTitle{
+    font-size: 2rem;    
+    font-weight: 600;   
+    padding-bottom: 2.5rem; 
+    color: #d83435;
+    letter-spacing: -0.1rem;
+}
+
+/* header CSS */
+
+header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    align-items: center;
+    background: black;
+    border-bottom: 5px solid #d83435 ; 
+    z-index: 99;
+}
+
+header a {
+    padding: 0, 0.5rem;
+    color: #d83435;
+    border-right: #bbbdbf solid 1px;
+    font-weight: 100;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding:  0 0.5rem 0 0;
+    height: 30px;
+}
+.logo p {
+    font-size: 2rem;
+    font-weight: 100;
+    color: white;
+    padding: 0;
+}
+
+/* Hero section CSS */
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+}
+
+#heroImage{
+    background-image: url(../img/bckimg_1.jpg);
+}
+.heroContainer{
+    background-color: rgba(61,10,11,0.91);
+    color: yellow;
+    padding: 3rem 0;
+    margin-bottom: 3rem;
+    border-radius: .2rem;
+}
+
+.heroContainer p {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 50);
+}
+
+.cta{
+    background-color: #d83435;
+    color:white;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.cta:hover{
+    background-color: #380001 ;
+}
+
+/* Mechanics Section CSS */
+
+.mechanicContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mechanicsArticle{
+    max-width: 76ch;
+    position: relative;
+}
+
+.mechanicBox{
+    width: 30%;
+ 
+}
+
+.mechanicBox img{
+    width: 100%;
+    padding-bottom: 1rem;
+    height: 320px;
+}
+
+.mechnicBox h3 {
+    padding-bottom: 0.5rem;
+    color: #d83435;
+}
+
+/* Theme Section  CSS */
+
+#narrativeImage{
+    background-image: url(../img/background_img_2.webp);
+}
+
+.narrativeArticle {
+    display: flex;
+    background-color: rgba(20,20,20,0.8);
+    width: 80%;
+    justify-content: space-between;
+    padding: 2.5rem;
+}
+
+.narrativeVideo{
+    display: flex;
+    align-items: center;
+}
+
+.narrativeText{
+    color: yellow;
+    text-align: left;
+    padding: 0 1rem 0 0 ;
+}
+
+.narrativeText h3{
+    color: yellow;
+}
+
+.narrativeText p{
+    color: yellow;
+    max-width: 76ch;
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+}
+
+/* Enviroment Section CSS */
+
+
+.envImg{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.envImgCard p{
+    max-width: 76ch;
+}
+
+.envImg h3{
+    padding-bottom: 1rem;
+}
+
+.envImg img{
+    width: 100%;
+    display: block;
+}
+.envImgCard {
+    width: 48.5%;
+    padding-bottom: 2.5rem;
+}
+
+.envTextCard { 
+    padding: 2rem 1rem;
+    background-color: #2d30333b;
+    
+}
+
+
+
+/* interface Section CSS */
+
+#interfaceImage{
+    background-image: url(../img/controls.jpeg);
+}
+
+.interfaceArticle{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(20,20,20,0.8);
+    width: 75%;
+    justify-content: center;
+    padding: 2.5rem;
+    height: 100%;
+}
+
+.interfaceArticle img {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.interfaceText h3 {
+    color: white;
+}
+.interfaceText p{
+    color: white;
+    max-width: 76ch;
+    margin: 0 auto;
+}
+
+.sectionTitle {
+    color: white;
+}
+/* alt Section Css */
+
+.alternativesArticle{
+    display: flex;
+    color:  black;
+    background-color: black;
+}
+
+.alternativesArticle img{
+    width: 50%;
+}
+
+.alternativesContent{
+    background-color: black;
+    color: black;
+}
+
+.alternativesArticle padding{
+    color: black;
+    background-color: black;
+}
+/* footer Css */
+
+footer{
+    padding: 2rem 0;
+    background-color: #2d30333b;
+}
+
+footer h3 {
+    padding: 0 0 0.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+li{
+    padding: 0 0 0.75rem 0;
+}
+
+li a {
+    color: #d83435;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+form input {
+    border:  none;
+    padding: 1rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.footerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submitBtn{
+    background-color: #d83435;
+    color: white; 
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* Responsive CSS */
+
+
+/* 800px */
+
+@media (max-width:800px){
+
+    .container{
+        max-width: 90%;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+
+    header a {
+        display: inline-block;
+        margin-bottom: 0.5rem;
+    }
+
+    .logo{
+        margin-bottom: 1rem;
+    }
+
+    /* Hero responsive */
+    .hero{
+        padding-top: 3rem;
+    }
+
+    h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    /* mech responsive */
+    .mechanicContainer{
+        flex-direction: column;
+    }
+    .mechanicBox{
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    /* theme responsive */
+
+    .narrativeArticle{
+        width: 100%;
+        max-width:100%;
+        padding: 0;
+    }
+
+    .narrativeText{
+        padding: 1rem;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .narrativeVideo{
+        padding: 1rem;
+    }
+    
+    /* theme responsive */
+
+    .envImg{
+        flex-direction: column;
+    }
+
+    .envImgCard{
+        width: 100%;
+    }
+
+    /* interface responsive */
+    .interfaceArticle{
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .interfaceText{
+        padding: 1rem;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    iframe{
+        width: 100%;
+        height: 315px;
+    }
+
+    /* alt section reponsive */
+    .alternativesArticle{
+        flex-direction: column;
+    }
+    
+    .alternativesArticle img{
+        width: 100%;
+    }
+
+    /* footer responsive */
+    form{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    nav{
+        text-align: center;
+    }
+
+    .footerContainter{
+        flex-direction: column-reverse;
+    }
+}
+
+/* 12000px  */
+
+
+@media(max-width:1200px) {
+
+    /* theme responsive */
+    .narrativeArticle{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .narrativeVideo{
+        padding: 2.5rem 0;
+    }
+
+    /* interface responsive */
+    .interfaceArticle{
+        width: 100%;
+    }
+}
